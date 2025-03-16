@@ -1,0 +1,57 @@
+body{
+    background: #faeff2;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items:centre;
+    padding: 10px;;
+    gap: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover {
+    color:#714fa0;
+    text-decoration: underline;
+}
+#Home{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #8B5E83;
+}
+#About h1{
+    font-size:1.2rem;
+    padding:05px;
+    font-weight: bold;
+    text-align: left;
+    }
+    p{
+        padding: 15px;
+    }
+#Hobbies p{
+        font-weight: bold;
+        font-size:1.2rem
+    }
+    #Achievements-Goals h1{
+        font-size:1.2rem
+    }
+    #contact h1{
+        font-size:1.2rem
+    }
+section {
+    padding: 20px;
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(155, 59, 134, 0.1);
+}
